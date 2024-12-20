@@ -10,11 +10,10 @@ const Card = (props) =>{
      .then(() =>{
         
      alert("Copied");
-        
+      
      }).catch(() =>{
         alert("Failed to Copy");
-     })
-        
+     });   
     }
   return <>
    <div className={styles.container}>
@@ -27,6 +26,8 @@ const Card = (props) =>{
 
 </div>
   </>
+
+
   
 }
 
